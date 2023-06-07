@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TechnologyTests.Linq;
 
-internal class LinqStudy
+public class LinqStudy
 {
     private IEnumerable<string> names = new List<string>() { "Kai", "Eliana", "Eliana", "Jayden", "Ezra", "Ezra", "Ezra", "Luca", "Luca", "Rowan", "Nova", "Amara" };
 

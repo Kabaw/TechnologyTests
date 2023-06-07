@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace TechnologyTests.Linq;
+namespace TechnologyTests.List;
 
 public class CircularList<T>
 {
