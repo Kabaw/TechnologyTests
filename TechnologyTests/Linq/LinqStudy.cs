@@ -14,10 +14,10 @@ internal class LinqStudy
 
     public LinqStudy()
     {
-        executeTests();
+        ExecuteTests();
     }
 
-    private void executeTests()
+    private void ExecuteTests()
     {
         //All names that contains the leter "R"
         var result = names.Where(x => x.Contains("R", StringComparison.OrdinalIgnoreCase)).ToList();
