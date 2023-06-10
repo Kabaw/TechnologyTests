@@ -5,9 +5,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechnologyTests.Attributes;
 
 namespace TechnologyTests.Linq;
 
+[ClassIndex(Index = 1)]
 public class LinqStudy
 {
     private IEnumerable<string> names = new List<string>() { "Kai", "Eliana", "Eliana", "Jayden", "Ezra", "Ezra", "Ezra", "Luca", "Luca", "Rowan", "Nova", "Amara" };

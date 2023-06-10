@@ -4,4 +4,5 @@
     public string ApiKey { get; set; }
     public string ApiSecret { get; set; }
     public string CurrentTestClass { get; set; }
+    public int ClassIndex { get; set; }
 }

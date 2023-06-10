@@ -5,12 +5,13 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechnologyTests.Attributes;
 
 namespace TechnologyTests.Linq;
 
-internal class ReflectionStudy
+[ClassIndex(Index = 2)]
+public class ReflectionStudy
 {
-
     public ReflectionStudy()
     {
         ExecuteTests();

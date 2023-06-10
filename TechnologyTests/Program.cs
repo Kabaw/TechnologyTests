@@ -13,4 +13,4 @@ var mySettings = new MySettings();
 configuration.GetSection("MySettings").Bind(mySettings);
 
 GlobalAccess.Init(configuration, mySettings);
-ClassCreator.NewInstance(GlobalAccess.instance.settings.CurrentTestClass);
+ClassCreator.NewInstance(GlobalAccess.instance.settings.ClassIndex);
